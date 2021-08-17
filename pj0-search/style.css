@@ -5,9 +5,7 @@
     text-align: right;
    
 }
-label {
-    width: 200px;
-}
+
 a {
     font-size: medium;
 
@@ -16,23 +14,9 @@ form {
     text-align: center;
 }
 
-.parent {
-    padding: 5px;
-    height: 50px;
-}
-
-.leftChild {
-    float: left;
-    width: 300px;
-    text-align: left;
-    margin-left: 20px;
-    margin-right: 40px;
-}
-
-.rightChild {
-    float: left;
-    
-    width: 200px;
+.centerTable {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .searchBar {
@@ -49,4 +33,6 @@ form {
     width: 200px;
     font-size: 15px;
     margin: 10px;
+    color: white;
+    background-color: blue;
 }

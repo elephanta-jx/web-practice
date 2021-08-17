@@ -11,25 +11,25 @@
         </div>
        
         <form action="https://google.com/search">
-            <div class="parent">
-                <div class="leftChild"><label>all these words:</label> </div>
-                <div class="rightChild"><input type="text" class="advanced" name="as_q"> </div> <br>
-            </div>
+            <table class="centerTable">
+                <tr>
+                    <td style="align-content: right;"><label>all these words:</label></td>
+                    <td><input type="text" class="advanced" name="as_q"></td>
+                </tr>
+                <tr>
+                    <td style="align-content: right;"><label>this exact word or phrase:</label></td>
+                    <td><input type="text" class="advanced" name="as_epq"></td>
+                </tr>
+                <tr>
+                    <td style="align-content: right;"><label>any of these words:</label></td>
+                    <td><input type="text" class="advanced" name="as_oq"></td>
+                </tr>
+                <tr>
+                    <td style="align-content: right;"><label>none of these words:</label></td>
+                    <td><input type="text" class="advanced" name="as_eq"></td>
+                </tr>
+            </table>
             
-            <div class="parent">
-                <div class="leftChild"><label>this exact word or phrase:</label> </div>
-                <div class="rightChild"></div><input type="text" class="advanced" name="as_epq"> </div> <br>
-            </div>
-
-            <div class="parent"></div>
-                <div class="leftChild"></div><label>any of these words:</label> </div>
-                <div class="rightChild"></div><input type="text" class="advanced" name="as_oq"> </div> <br>
-            </div>
-
-            <div class="parent"></div>
-                <div class="leftChild"></div><label>none of these words:</label> </div>
-                <div class="rightChild"></div><input type="text" class="advanced" name="as_eq"> </div> <br>
-            </div>
 
             <input type="submit" class="submitButton" value="Advanced Search">
         </form>
